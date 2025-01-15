@@ -1,3 +1,7 @@
 Django==3.2.3
 djangorestframework==3.12.4
 django-cors-headers==3.13.0
+
+# Для работы с PostgreSQL в Django используется библиотека psycopg2-binary.
+# Если её не установить, бэкенд postgresql не заработает.
+psycopg2-binary==2.9.3
